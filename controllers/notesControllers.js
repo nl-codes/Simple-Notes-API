@@ -47,3 +47,13 @@ export const updateNote = (req, res) => {
         res.status(404).json({ message: "Note not found" });
     }
 };
+
+export const deleteNote = (req, res) => {
+    let notes = readNotes();
+    const newNotes = notes.filter((n) => n.id !== req.params.id);
+    if (notes.length === newNotes.length) {
+        return res.status(404).json({ message: "Note not found" });
+    }
+    writeNotes(newNotes);
+    res.json({ message: "Note deleted" });
+};
