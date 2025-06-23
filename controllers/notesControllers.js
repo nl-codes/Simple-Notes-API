@@ -29,3 +29,9 @@ export const getAllNotes = (req, res) => {
     const notes = readNotes();
     res.json(notes);
 };
+
+export const getNoteById = (req, res) => {
+    const notes = readNotes();
+    const note = notes.find((n) => n.id === req.params.id);
+    note ? res.json(note) : res.status(404).json({ message: "Note not found" });
+};
