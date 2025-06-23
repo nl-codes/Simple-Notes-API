@@ -35,3 +35,15 @@ export const getNoteById = (req, res) => {
     const note = notes.find((n) => n.id === req.params.id);
     note ? res.json(note) : res.status(404).json({ message: "Note not found" });
 };
+
+export const updateNote = (req, res) => {
+    let notes = readNotes();
+    const index = notes.findIndex((n) => n.id === req.params.id);
+    if (index !== -1) {
+        notes[index] = { id: req.params.id, ...req.body };
+        writeNotes(notes);
+        res.json(notes[index]);
+    } else {
+        res.status(404).json({ message: "Note not found" });
+    }
+};
