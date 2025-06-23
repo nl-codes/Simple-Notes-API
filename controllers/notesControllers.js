@@ -24,3 +24,8 @@ export const createNote = (req, res) => {
     writeNotes(notes);
     res.status(201).json(newNote);
 };
+
+export const getAllNotes = (req, res) => {
+    const notes = readNotes();
+    res.json(notes);
+};
