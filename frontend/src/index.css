@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(245, 240, 255, 0.95); /* Soft lavender text */
+    background-color: #2b1a41; /* Dark purple background */
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    font-weight: 500;
+    color: #b191f9; /* Medium lavender link */
+    text-decoration: inherit;
+}
+a:hover {
+    color: #d6c1ff; /* Lighter on hover */
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: inherit;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #6a4caf; /* Button base - deep purple */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+button:hover {
+    background-color: #8365cc; /* Brighter hover */
+    border-color: #c9afff;
+}
+button:focus,
+button:focus-visible {
+    outline: 4px auto #b191f9;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #2a104d; /* Deep violet text */
+        background-color: #f4f0fb; /* Light lavender background */
+    }
+    a:hover {
+        color: #8a5fe8;
+    }
+    button {
+        background-color: #d7c7f5;
+        color: #2a104d;
+    }
+}
