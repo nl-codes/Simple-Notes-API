@@ -1,12 +1,52 @@
 [
     {
-        "id": "b1342825-ea08-421a-b402-2bb2bf2bd4e2",
-        "title": "Api inserted note 1",
-        "description": "This was supposed to be the description of the note 1 🤔"
+        "id": "e261fa0e-dcdd-4132-bfc0-9ad72aef32da",
+        "title": "🗡️ Soul Reapers Explained 👻",
+        "description": "Learn about the role, duties, and powers of Soul Reapers ⚔️ in the Bleach universe 🌌."
     },
     {
-        "id": "4e8a0950-c5c3-402b-bf15-7d25a96c92fb",
-        "title": "Api inserted note 2",
-        "description": "Note 2? 😲 meaning first note was inserted 🙌. This part was added later. Does the update work? 👀"
+        "id": "d791e4e3-777e-4af0-b0e4-c38fc254dfb3",
+        "title": "🔥 Ichigo Kurosaki’s Bankai 💥",
+        "description": "Unleashing Tensa Zangetsu! 🗡️ Discover its form, speed boost 💨, and raw power 💪."
+    },
+    {
+        "id": "ef445982-4539-4da0-a3d8-93c8b1419e0e",
+        "title": "💀 Espada Ranks and Powers 🧠",
+        "description": "Explore the top 10 Espada 🔟, their deadly abilities ☠️, and their Resurrección forms 🐉."
+    },
+    {
+        "id": "3374b7a1-a18a-47e0-99c5-0569ff23ab25",
+        "title": "🌌 Hueco Mundo Arc Summary 🏯",
+        "description": "A deep dive into Ichigo’s journey 🚶‍♂️ through Hueco Mundo, intense battles ⚔️, and friendships 🤝."
+    },
+    {
+        "id": "f6880a26-89b9-4cba-8863-a774f56d407b",
+        "title": "🔮 Zanpakutō & Their Shikai Forms 🌀",
+        "description": "From Senbonzakura 🌸 to Hyōrinmaru ❄️ — uncover the unique Shikai abilities of Soul Reapers 💫."
+    },
+    {
+        "id": "4d08153b-3e06-427d-8436-ecd276df9725",
+        "title": "🔥 Captain Commander Yamamoto 👴",
+        "description": "The strongest fire user 🔥 in Soul Society. Explore Ryujin Jakka’s wrath 😤 and Yamamoto’s legacy 🏛️."
+    },
+    {
+        "id": "9b40a720-dd14-4981-820c-103bfb0c0de8",
+        "title": "❄️ Quincy & Wandenreich 🏹",
+        "description": "Who are the Quincy? Learn about their spiritual arrows 🎯, techniques, and the Wandenreich empire 🏰."
+    },
+    {
+        "id": "a3d00645-4309-4bf7-bc2e-8e5994683797",
+        "title": "🧠 Urahara Kisuke’s Genius 🧪",
+        "description": "From shopkeeper 🛍️ to scientist 🔬 — dive into Urahara’s brilliant mind 💡 and secret past 🕵️‍♂️."
+    },
+    {
+        "id": "667b0577-bd8d-4947-9bc2-77996c575033",
+        "title": "🌀 Aizen’s Betrayal 👁️",
+        "description": "From captain to godlike villain 😈. Aizen’s manipulation 🧠 and the power of the Hōgyoku 💎 explained."
+    },
+    {
+        "id": "98b67f08-2c4e-405e-8ccb-0586ee598173",
+        "title": "⚔️ Bleach Final Arc: Thousand-Year Blood War 💥",
+        "description": "Epic clashes 🥷, new Bankai reveals 💣, and Ichigo’s ultimate form 🌟 await in the final saga 📜."
     }
 ]
