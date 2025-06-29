@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Gudea:ital,wght@0,400;0,700;1,400&family=Manufacturing+Consent&display=swap");
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #3a2258;
+    --color-secondary: #dedc52;
+    --color-light: #ffebcd;
+    --color-dark: #180e25;
+    --color-error: #5a1623;
+    --color-light-red: #a65333;
+    --color-success: #1f7f40;
+    --color-warning: #f8c715;
+    --font-fancy: "Manufacturing Consent", system-ui;
+}
+
+body {
+    background-color: var(--color-primary);
+    font-family: "Gudea", sans-serif;
+}
+
+.font-title {
+    font-family: var(--font-fancy);
+    font-weight: 400;
+    font-size: xxx-large;
+}
+
+.font-footer {
+    font-size: x-large;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: fit-content;
+}
+.form-label {
+    border-radius: 12px;
+    padding: 4px 12px;
+    font-size: x-large;
+    font-weight: 900;
+    width: fit-content;
+    background-color: var(--color-light);
+    color: var(--color-dark);
+}
+.form-input,
+.form-textfield {
+    background-color: var(--color-light);
+    width: 600px;
+    padding: 4px 12px;
+    font-size: x-large;
+    border-radius: 12px;
+    font-weight: 500;
+}
+.form-textfield {
+    height: 194px;
+}
